@@ -21,6 +21,7 @@ jobs:
     - name: add kernelsu
       run: |
         cd kernel/msm-5.4/
+        pwd
         curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" |bash -
         
     - name: Sync Clang
