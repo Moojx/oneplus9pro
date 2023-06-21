@@ -22,7 +22,7 @@ jobs:
       run: |
         cd kernel/msm-5.4/
         curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" |bash -
-        cd ../../
+        
     - name: Sync Clang
       run: |
         mkdir -p prebuilts-master/clang/host/linux-x86/clang-r450784d/
